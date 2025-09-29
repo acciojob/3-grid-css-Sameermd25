@@ -2,6 +2,7 @@
 .grid-container{
 	display:grid;
 	grid-template-columns:repeat(3, 1fr);
+	width: 321.328px;
 }
 .grid-item{
 	background-color:#f2f2f2;
