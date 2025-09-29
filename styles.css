@@ -1,8 +1,8 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
-  gap: 10px;
-  width: fit-content;
+  grid-template-columns: repeat(3, 100px); /* 3 columns of 100px */
+  gap: 10px; /* 2 gaps of 10px = 20px */
+  width: fit-content; /* container only as wide as its content */
   box-sizing: border-box;
 }
 
@@ -11,7 +11,6 @@
   border: 1px solid #ccc;
   text-align: center;
   height: 60px;
-  width: 100px;
-  line-height: 60px; /* vertically center the number */
+  line-height: 60px; /* vertical centering */
   box-sizing: border-box;
 }
