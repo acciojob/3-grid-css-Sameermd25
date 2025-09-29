@@ -1,11 +1,17 @@
-/*  your css code here. If applicable */
-.grid-container{
-	display:grid;
-	grid-template-columns:repeat(3, 1fr);
-	width: 321.328px;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  width: fit-content;
+  box-sizing: border-box;
 }
-.grid-item{
-	background-color:#f2f2f2;
-	border:1px solid #ccc;
-	text-align:center;
+
+.grid-item {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  text-align: center;
+  height: 60px;
+  width: 100px;
+  line-height: 60px; /* vertically center the number */
+  box-sizing: border-box;
 }
